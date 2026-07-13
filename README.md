@@ -1,6 +1,6 @@
 # EmissionModule
 
-[NonToon](https://github.com/lilxyzw/NonToon)のLightenモジュールを改変した発光モジュールです。
+[NonToon](https://github.com/lilxyzw/NonToon)のLightenモジュールを拡張した発光モジュールです。
 
 従来のシェーダーと同様の使用感にすることを目的としています。
 
