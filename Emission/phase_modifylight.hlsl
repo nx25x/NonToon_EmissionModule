@@ -8,7 +8,7 @@
                 newColor *= SCSample(_EmissionTex, sampler_BaseTexture, sd.uv);
             }
             
-            sd.lightColor = _EmissionUseMask ? lerp(sd.lightColor, newColor, sd.mask[_EmissionMaskChannel]) : sd.lightColor + newColor;
+            sd.lightColor = _EmissionUseMask ? sd.lightColor + newColor * sd.mask[_EmissionMaskChannel] : sd.lightColor + newColor;
         }
     }
 }
